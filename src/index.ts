@@ -1,11 +1,9 @@
-import express,{ type Request, type response } from "express";
+import express,{ type Request, type Response } from "express";
 
 import morgan from 'morgan';
 
-//
 import studentRoutes from "./routes/studentRoutes.js";
 import courseRoutes from "./routes/courseRoutes.js";
-import { request } from "http";
 
 
 const app: any = express();
